@@ -24,7 +24,8 @@
 1. Внутри директории проекта активировать виртуальное окружение (venv/ — название виртуального окружения)
 ````
 python -m venv venv
-venv/bin/activate
+venv\Scripts\activate - для Windows;
+source venv/bin/activate - для Linux и MacOS.
 ````
 2. Склонировать репозиторий с Github.com:
 ````
